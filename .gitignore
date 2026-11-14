@@ -1,0 +1,62 @@
+# =========================================================
+# Credenciales y secretos — NUNCA versionar
+# =========================================================
+.env
+.env.*
+*.env
+credentials
+credentials.json
+.config/earthengine/
+*service-account*.json
+*service_account*.json
+*-key.json
+*_key.json
+client_secret*.json
+application_default_credentials.json
+*.pem
+*.p12
+secrets/
+.secrets/
+
+# =========================================================
+# Resultados y descargas (rasters pesados)
+# =========================================================
+outputs/
+exports/
+*.tif
+*.tiff
+*.zip
+*.nc
+
+# Copia del GeoJSON de ejemplo que el notebook escribe si no encuentra data/
+/notebooks/aoi_example.geojson
+/aoi_example.geojson
+
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.conda/
+
+# =========================================================
+# Jupyter / IDE / SO
+# =========================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

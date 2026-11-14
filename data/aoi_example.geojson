@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AOI de ejemplo - Cali (Valle del Cauca, Colombia)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.62,
+              3.33
+            ],
+            [
+              -76.45,
+              3.33
+            ],
+            [
+              -76.45,
+              3.5
+            ],
+            [
+              -76.55,
+              3.52
+            ],
+            [
+              -76.65,
+              3.45
+            ],
+            [
+              -76.62,
+              3.33
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
